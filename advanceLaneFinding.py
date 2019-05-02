@@ -10,7 +10,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
-get_ipython().run_line_magic('matplotlib', 'inline')
+#get_ipython().run_line_magic('matplotlib', 'inline')
 
 
 # ### Global Configuration
@@ -1333,9 +1333,9 @@ get_ipython().run_line_magic('time', 'white_clip.write_videofile(white_output, a
 # In[43]:
 
 
-HTML("""
-<video width="960" height="540" controls>
-  <source src="{0}">
-</video>
-""".format(white_output))
+#HTML("""
+#<video width="960" height="540" controls>
+ # <source src="{0}">
+#</video>
+#""".format(white_output))
 
